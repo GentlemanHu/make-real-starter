@@ -13,7 +13,7 @@ export async function fetchFromOpenAi(
 	}
 
 	try {
-		const repsonse = await fetch('https://api.openai.com/v1/chat/completions', {
+		const repsonse = await fetch('https://oneapi.crushing.xyz/v1/chat/completions', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
